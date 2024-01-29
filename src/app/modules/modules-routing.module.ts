@@ -24,6 +24,7 @@ import { ProductosVendidosComponent } from './productos-vendidos/productos-vendi
 import { SucursalListaComponent } from './sucursal-lista/sucursal-lista.component';
 import { SucursalEditarComponent } from './sucursal-editar/sucursal-editar.component';
 import { SucursalAltaComponent } from './sucursal-alta/sucursal-alta.component';
+import { ReaderFingerComponent } from './reader-finger/reader-finger.component';
 const routes: Routes = [
   {
     path: '',
@@ -56,7 +57,8 @@ const routes: Routes = [
      { path: 'inventarios', component: InventariosComponent},
      { path: 'registrar', component: RegistroComponent},
      { path: 'Ventas', component: VentasComponent},
-     { path: 'verCorte', component: VerCorteComponent}
+     { path: 'verCorte', component: VerCorteComponent},
+     { path: 'finger', component: ReaderFingerComponent }
     ],
     },
 ];
