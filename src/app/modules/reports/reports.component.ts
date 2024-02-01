@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import Chart from 'chart.js/auto';
 import { format } from 'date-fns';
-import { AuthService } from 'src/app/service/auth.service';
-import { SerialService } from 'src/app/service/serial.service';
 import * as SerialPort from 'serialport';
+import { SerialService } from '../../service/serial.service';
+import { AuthService } from '../../service/auth.service';
 
 @Component({
   selector: 'app-reports',
