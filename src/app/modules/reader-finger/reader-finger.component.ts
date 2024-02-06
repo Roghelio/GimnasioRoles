@@ -9,7 +9,7 @@ import {
   AcquisitionStopped,
   QualityReported
 } from '@digitalpersona/devices';
-import "./../../WebSdk";
+import "../../WebSdk";
 
 @Component({
   selector: 'app-reader-finger',

@@ -92,6 +92,7 @@ import { FilterByDatePipe } from '../pipes/filtroFechas.pipe';
 import { ListarProductosPipe } from '../pipes/lista-proveedor.pipe';
 import { ProductosVendidosComponent } from './productos-vendidos/productos-vendidos.component';
 import { ReaderFingerComponent } from './reader-finger/reader-finger.component';
+import { AuthFingerComponent } from './auth-finger/auth-finger.component';
 
 @NgModule({
   declarations: [
@@ -150,6 +151,7 @@ import { ReaderFingerComponent } from './reader-finger/reader-finger.component';
     ListarProductosPipe,
     ProductosVendidosComponent,
     ReaderFingerComponent,
+    AuthFingerComponent,
     //InventarioComponent
   ],
   imports: [

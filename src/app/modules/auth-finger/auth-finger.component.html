@@ -1,0 +1,26 @@
+<script src="websdk/index.js"></script>
+<p> hola mundo...</p>
+<div class="reader-communication-error">
+    Cannot connect to you fingerprint device. Make sure the device is connected.
+    If you do not use DigitalPersona Workstation, you may need to download and install
+    <a href="https://crossmatch.hid.gl/lite-client">DigitalPersona Lite Client</a>.
+</div>
+
+<button (click)="fn_Listar_Dispositivos()">Listar PF</button>
+<button (click)="fn_DeviceInfo()">Información de dispositivo.</button>
+<br/>
+<button (click)="fn_StartCapturaFP()">Iniciar captura.</button>
+<button (click)="fn_EndCaptureFP()">Finalizar captura.</button>
+<br/>
+<button (click)="fn_CapturaFP()">Mostrar captura</button>
+<!--
+<div>
+    <p>Huella capturada.</p>
+    <img style="display: block; width: 100px; height: 100px;" id="base64image" 
+    src="data:image/jpeg;base64, {{currentImageFinger}}" alt="huella">
+</div>-->
+<div>
+    <p>Huella capturada - Ok.</p>
+    <img style="display: block; width: 100px; height: 100px;" id="base64image" 
+    src="data:image/jpeg;base64, {{currentImageFingerFixed}}" alt="huella">
+</div>
